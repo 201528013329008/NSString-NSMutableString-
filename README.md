@@ -65,6 +65,8 @@ hasSuffix,判断字符串str1后缀是否是' is'
 BOOL isHasSuffix = [str1 hasSuffix:@' is'];
 UTF8String,将字符串转换为c语言格式
 const char *charStr = [str1 UTF8String];
+
+
 二. NSMutableString
 NSMutableString对象代表一个字符序列可变的字符串，而且NSMutableString是NSString的子类，因此前面介绍的NSString所包含的方法，NSMutableString都可以直接使用，NSMutableString对象也可直接当成NSString对象使用。
 创建可变字符串
