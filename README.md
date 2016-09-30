@@ -1,5 +1,7 @@
 # NSString-NSMutableString-
  不可变|可变字符串
+ 
+ 
 一. NSString
 NSString 是一个不可变的字符串类,继承自 NSObject ,用NSString创建出来的字符串对象,一经创建就不能再修改了.我们可以对它执行查找或比较等操作,但是不能通过增加,删除它的字符来动态地改变它.
 　　NSString主要的方法都在Foundation/NSString.h中定义的,NSString提供了很多方法的接口,但是这些方法的实现都是由内部具体实现的.下面将对NSString的主要方法进行说明
@@ -65,6 +67,7 @@ hasSuffix,判断字符串str1后缀是否是' is'
 BOOL isHasSuffix = [str1 hasSuffix:@' is'];
 UTF8String,将字符串转换为c语言格式
 const char *charStr = [str1 UTF8String];
+
 
 
 二. NSMutableString
