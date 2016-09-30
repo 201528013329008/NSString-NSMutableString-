@@ -1,6 +1,8 @@
 # NSString-NSMutableString-
  不可变|可变字符串
  
+ 转自http://blog.csdn.net/u014735194/article/details/50353750
+ 
  
 一. NSString
 NSString 是一个不可变的字符串类,继承自 NSObject ,用NSString创建出来的字符串对象,一经创建就不能再修改了.我们可以对它执行查找或比较等操作,但是不能通过增加,删除它的字符来动态地改变它.
